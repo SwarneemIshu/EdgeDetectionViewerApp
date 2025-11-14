@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.edgedetectionviewer">
+
+    <!-- permissions (must be OUTSIDE the <application> tag) -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="EdgeDetectionViewer"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EdgeDetectionViewer"
+        tools:targetApi="31">
+
+        <!-- Optional: remove this line unless you need legacy apache libs.
+             It is not necessary for CameraX/OpenCV. -->
+        <!-- <uses-library android:name="org.apache.http.legacy" android:required="false" /> -->
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="EdgeDetectionViewer"
+            android:theme="@style/Theme.EdgeDetectionViewer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
