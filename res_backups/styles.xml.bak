@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Use an AppCompat theme because your Activity extends AppCompatActivity -->
+    <!-- AppCompat-based theme required for AppCompatActivity -->
     <style name="Theme.EdgeDetectionViewer" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- customize if needed -->
         <item name="android:windowBackground">?android:colorBackground</item>
-        <!-- add other items here if you need -->
     </style>
 </resources>
