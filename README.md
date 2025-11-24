@@ -30,4 +30,4 @@ If using the Web companion:
 
 ## Output Images
 ![Image](https://github.com/user-attachments/assets/aace6319-690b-4954-a2cb-fc0e4a046f30)
-![Image](https://github.com/user-attachments/assets/23282a57-a607-4d6d-8f54-2d57aeeabb2f)
+![Image](https://github.com/SwarneemIshu/EdgeDetectionViewerApp/blob/3e3de0636a771e4b46764523b5e744a464214c8d/canny_output.jpg)
